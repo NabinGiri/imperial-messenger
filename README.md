@@ -25,11 +25,11 @@ Your program should output the minimum time required before a message sent from 
 throughout the empire, i.e. the time it is received in the last city to get the message.
 
 # Sample Input
-5
-50
-30 5
-100 20 50
-10 x x 10
+5 \
+50 \
+30 5 \
+100 20 50 \
+10 x x 10 
 
-Output for the Sample Input
+# Output for the Sample Input
 35
