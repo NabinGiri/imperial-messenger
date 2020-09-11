@@ -1,7 +1,7 @@
 # imperial-messenger
 Imperial Messenger problem in C
 
-#Problem
+## Problem
 The empire has a number of cities. For communicating important messages from the capitol to other cities, a
 network of messengers is going to be set up. Some number of messengers will be stationed in the capitol city. Each
 messenger will ride to one other city, where the message will be posted in the town square, and handed off to some
@@ -9,7 +9,7 @@ number of new messengers, each of whom will ride of to a different city, repeati
 unemployment rate is such that there are no limits placed upon the number of messengers in each city, the only goal
 is to get the message communicated throughout the empire as quickly as possible.
 
-#Input
+# Input
 The input will describe the routes between the n cities. All cities are reachable using some path from the capitol
 city. The first line of the input will be n, the number of cities, such that 1 <= n <= 100. The rest of the input defines
 an adjacency matrix, A. The adjacency matrix is square and of size n×n. Each of its entries will be either an integer
@@ -24,7 +24,7 @@ Output
 Your program should output the minimum time required before a message sent from the capitol (city #1) is known
 throughout the empire, i.e. the time it is received in the last city to get the message.
 
-#Sample Input
+# Sample Input
 5
 50
 30 5
