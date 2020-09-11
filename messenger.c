@@ -114,37 +114,3 @@ int main(void)
 	return 0;
 
 }
-
-
-/*
-* Notes:
-* 
-* Problem Domain : To find the shortest path from capital city to the last city of the empire.
-* Solution thinking: 
-* 1. Need to read the input from stdin from the streaming input.
-* 2. Need to select an algorithm to solve the problem.
-* 3. Need to select a data structure to use.
-* 
-* Solution Approach:
-* 1.Loop to read the input
-* 2. Algorithm to choose:
-*	a.I remembered one of the chapter from Peter Norving's Artificial Intelligence Book.
-*	b. The given problem is a searching problem. 
-*	c. Algorithms that can be used : Breadth-first search, Depth-first search, Iterative Depth-first search,
-*		A* algorithm, Dijkstra algorithm, Bellman Ford.
-* 3. Data structure to use: ( linear)
-*	a. Linked list is better to use as it has benefits in memory management. 
-*	b. Array can also be used as the data is small and we need access elements faster, also
-*     takes less space in memory(linked list takes 4 bytes as pointer in addition to the data)
-*	, array has benefits over linked list in this case ( linked list causes segmentation fault issue).
-* 
-* Time Spent:
-* 1. started at 8 am
-* 2. current time is 1pm
-* 3. spent 1 hour understanding, deciding the approach and the data structure to use.
-* 3. took time while implementing using linked list - caused segmentation fault issue.
-* 4. started again without linkedlist.
-* 5. some time spent on debugging. 
-* 6. the pogram is not the best one, there are other methods that can be used
-
-*/
